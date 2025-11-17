@@ -1,3 +1,9 @@
+<img width="1024" height="1024" alt="ChatGPT Image Nov 17, 2025, 05_55_06 PM" src="https://github.com/user-attachments/assets/3dd95127-1329-4db0-bc32-588fc16744da" />
+
+
+
+
+
 # Swarm-Gensyn
 Run swarm node and contribute to gensyn network, also get the Swarm role
 
