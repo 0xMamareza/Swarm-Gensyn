@@ -178,7 +178,7 @@ This script installs the GSwarm CLI tool, sets up a Telegram bot for notificatio
 ## Quick Start
 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/0xMamareza/Swarm-Gensyn/refs/heads/main/ClaimSwarmRole)
+bash <(curl -sL https://raw.githubusercontent.com/0xMamareza/Swarm-Gensyn/refs/heads/main/ClaimSwarmRole.sh)
 ```
 
 
