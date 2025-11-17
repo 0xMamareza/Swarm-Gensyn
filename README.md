@@ -79,9 +79,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 docker ps -a
 ```
-```
-docker compose run --rm --build -Pit swarm-cpu
-```
 
 ---
 
@@ -118,6 +115,11 @@ source .venv/bin/activate
 # if not worked, then:
 . .venv/bin/activate
 
+```
+Then
+
+```
+docker compose run --rm --build -Pit swarm-cpu
 ```
 
 
