@@ -156,3 +156,55 @@ deactivate && rm -rf .venv && python3 -m venv .venv && source .venv/bin/activate
  
  ## Important note: 
   if after 3 or 4 hours you don't get any TX on `https://gensyn-testnet.explorer.alchemy.com` please `rm -rf rl-swarm` and rerun
+
+---
+
+# Claim Your Swarm Role On Gensyn Discord
+This script installs the GSwarm CLI tool, sets up a Telegram bot for notifications, and starts monitoring Gensyn Swarm rewards automatically.
+
+---
+
+## 📦 Features
+
+- ✅ Automatic installation of Go (version >= 1.24.5)
+- ✅ jq installation for JSON parsing
+- ✅ GSwarm CLI installed from GitHub
+- ✅ Telegram bot token setup with automatic chat ID fetch
+- ✅ Saves config in `telegram-config.json`
+- ✅ Starts `gswarm` instantly
+
+---
+
+## Quick Start
+
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/0xMamareza/Swarm-Gensyn/refs/heads/main/ClaimSwarmRole)
+```
+
+
+
+Follow the Telegram bot setup prompts
+
+- Create a new bot using [@BotFather](https://t.me/botfather)
+- Paste your bot token when asked
+- Send a message to your bot so the script can fetch your chat ID
+- Get your EOA from [gensyn dashboard](https://dashboard.gensyn.ai)
+
+---
+
+## Config File
+
+After setup, you'll get a `telegram-config.json` file like this:
+
+```json
+{
+  "bot_token": "123456:ABC-DEF...",
+  "chat_id": "987654321",
+  "welcome_sent": true,
+  "api_url": "https://gswarm.dev/api"
+}
+```
+
+---
+
+Question ? Join [Telegram](https://t.me/xAlphoria)
